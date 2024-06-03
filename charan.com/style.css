@@ -4,16 +4,17 @@
 }
 
 body {
-    background-color: rgb(0, 0, 33);
-    color: white;
+    background-color: rgb(0, 0, 33);;
+    color:rgb(255, 255, 255);;
     font-family: 'poppins',sans-serif;
 }
+/*navbar*/
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(13, 21, 59);
+    background-color: rgb(28, 32, 42);
 }
 nav ul{
     display: flex;
@@ -28,7 +29,7 @@ nav ul li a{
     color: rgb(255, 255, 255);
 }
 nav ul li a:hover{
-    color: rgb(144, 144, 250);
+    color: rgb(139, 139, 249);
 } 
 main hr {
     border: 0;
@@ -50,6 +51,8 @@ main hr {
 .leftSection{
     font-size: 2rem;
     margin: 100px 0;
+    /*changes*/
+
    
 }
 .leftSection .buttons{
@@ -57,8 +60,8 @@ main hr {
 }
 .leftSection .btn{
     padding:12px;
-    background-color:  rgb(0, 0, 33);
-    color: beige;
+    background-color:  rgb(0, 0, 33);;
+    color: wheat;
     border-radius: 5px;
     font-size: 15px;
     cursor: pointer;
@@ -129,18 +132,20 @@ footer{
 
 
 }
-.footer ul{
-    list-style: none;
 
-}
-.footer ul a{
-    
-    color: aliceblue;
-}
 .footer > div{
     width: 223px;
 }
+.footer-second a{ 
+    display: flex;
+   text-decoration: none;
+   color: beige;
+   padding: 2px;
+   
+  
+}
 footer .footer-fourth{
+    padding: 7px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -151,3 +156,8 @@ footer .footer-rights{
   color: gray;
   padding: 12px 0;
 }
+.footer-fourth a{
+    color: azure;
+    size: 4px;
+}
+
